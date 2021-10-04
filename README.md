@@ -63,6 +63,7 @@ Null Hypothesis: The mean safety ratings of all similar vehicles are equal.
 Alternative Hypothesis: At least one vehicle similar to MechaCar has a safety rating different from the others.
 
 **Type of Test**
+
 The Anova test is the most appropriate for each of these variables, as they are all continuous numerical values.
 
 **Necessary Data:**
