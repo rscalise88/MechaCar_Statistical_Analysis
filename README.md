@@ -19,10 +19,31 @@ The linear regression does effectively predict the mpg of MechaCar prototypyes. 
 The script output indicated in the total_summary that the variance is 62.29, which meets the design specification indicated above.  However, when reviewing each lot on an individual basis using the lot summary, it becomes apparent that the third lot's variance is far too high and does not meet the design specification.
 
 ## T-Tests on Suspension Coils
+**1: T-test to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.**
+
+![](https://github.com/rscalise88/MechaCar_Statistical_Analysis/blob/main/images/all.PNG)
+
+The results give a p-value of .06, above the significance level.  Based on this, we can conclude that the PSI across all lots is similar to the population mean.
 
 
+**2a: T-test to to determine if the PSI for manufacturing lot 1 is statistically different from the population mean of 1,500 pounds per square inch.**
 
+![](https://github.com/rscalise88/MechaCar_Statistical_Analysis/blob/main/images/lot1.PNG)
 
+The script shows a p-value of 1, which means the sample mean is the same as the population mean.  
+
+**2b: T-test to to determine if the PSI for manufacturing lot 1 is statistically different from the population mean of 1,500 pounds per square inch.**
+
+![](https://github.com/rscalise88/MechaCar_Statistical_Analysis/blob/main/images/lot2.PNG)
+
+Like what was seen in the p-value from all of the lots overall, the results for lot 2 give a p-value of .06, above the significance level.  Based on this, we can conclude that the PSI for lot 2 is similar to the population mean.
+
+**2c: T-test to to determine if the PSI for manufacturing lot 1 is statistically different from the population mean of 1,500 pounds per square inch.**
+
+![](https://github.com/rscalise88/MechaCar_Statistical_Analysis/blob/main/images/lot3.PNG)
+
+Results for the lot 3 t-test give a p-value of 0.04168, which is less than the significance level.  Based on this, we can conclude that the PSI for lot 3 is not similar to the population mean.
 
 
 ## Study Design: MechaCar vs Competition
+As we've already looked at the MPG of MechaCar in some respects, I propose a statistical study of the cost, maintenance cost, and safety ratings of MechaCars when comapred to the competition.
