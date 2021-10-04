@@ -46,4 +46,28 @@ Results for the lot 3 t-test give a p-value of 0.04168, which is less than the s
 
 
 ## Study Design: MechaCar vs Competition
-As we've already looked at the MPG of MechaCar in some respects, I propose a statistical study of the cost, maintenance cost, and safety ratings of MechaCars when comapred to the competition.
+**Metrics to review:**
+As we've already looked at the MPG of MechaCar in some respects, I propose a statistical study of the cost, maintenance cost, and safety ratings of MechaCars when comapred to the competition.  These are the factors that I considered most heavily when I, as a consumer, recently purchased a new vehicle.  Cost is an obvious choice for most consumers, and I believe safety rating is as well.  However, even when the immediatey cost and safety appeal of a car is considered, maintenance cost is often ignored I feel - this factored heavily into which cars I was not interested in buying, simply because the costs to maintain or repair them were far too high.
+
+**Hypotheses:**
+*Cost:*
+Null Hypothesis: The mean price of all similar vehicles are equal.
+Alternative Hypothesis: At least one vehicle similar to MechaCar has a mean prioce different than the others.
+
+*Maintenance Cost:*
+Null Hypothesis: The mean maintenance costs of all similar vehicles are equal.
+Alternative Hypothesis: At least one vehicle similar to MechaCar has a maintenance cost different from the others.
+
+*Safety rating:*
+Null Hypothesis: The mean safety ratings of all similar vehicles are equal.
+Alternative Hypothesis: At least one vehicle similar to MechaCar has a safety rating different from the others.
+
+**Type of Test**
+The Anova test is the most appropriate for each of these variables, as they are all continuous numerical values.
+
+**Necessary Data:**
+The cost of not just the MechaCars, but also all similar vehicles in production within the same market.  To keep all thigns equal, all cars should be the same manufactured year to prevent used car sales proces from interfering with the data.  
+
+For the maintenance cost, data for all vehicles in this class showing the annual cost of maintenance.  Further data showing perhaps a 5-year average maintenance cost could be useful as well.  Not all vehicles are created equal, and some may be more problematic as their lifecycle progresses.
+
+Finally, the safety rating information from all vehicles in the same class as the mechacar.  Safety Ratings are more than just a single value as we know - ideally this data would contain the safety rating in each category for each vehicle and comparison could be drawn across not just the overall picture, but categorically as well.
